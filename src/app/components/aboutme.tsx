@@ -8,7 +8,7 @@ function Aboutme() {
         {/* Image Section */}
         <div className="flex-shrink-0 w-[250px] sm:w-[400px] lg:w-[500px] h-[250px] sm:h-[400px] lg:h-[500px]">
           <Image
-            src="/20945770.jpg"
+            src="20945770.jpg"
             width={500}
             height={500}
             alt="About Me"

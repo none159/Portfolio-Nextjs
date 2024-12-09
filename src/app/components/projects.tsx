@@ -74,7 +74,7 @@ function Projects() {
                 <Image
                   width={300}
                   height={300}
-                  src={`/${project.image}`}
+                  src={`${project.image}`}
                   alt={project.name}
                   className="w-[250px] sm:w-[300px] h-[250px] sm:h-[300px] rounded-lg object-cover shadow-lg"
                 />
