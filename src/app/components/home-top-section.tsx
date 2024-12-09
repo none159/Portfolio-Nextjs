@@ -1,6 +1,6 @@
 "use client"
 import { useState, useEffect } from 'react';
-
+import Image from 'next/image';
 function Topsection() {
   const [showName, setShowName] = useState(true);
 
@@ -46,7 +46,7 @@ function Topsection() {
         </div>
       </div>
       <div className="w-[350px] h-[350px] rounded-full bg-gray-300 flex items-center justify-center">
-        <img
+        <Image
           className="w-full h-full rounded-full mix-blend-multiply"
           src="4200_3_03.jpg"
           alt="Profile"

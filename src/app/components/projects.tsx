@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-
+import Image from "next/image";
 const projects = [
   {
     id: 1,
@@ -70,7 +70,7 @@ function Projects() {
               className={`relative transition-all duration-500 transform ${position}`}
             >
               <div className="relative group">
-                <img
+                <Image
                   src={project.image}
                   alt={project.name}
                   className="w-[300px] h-[300px] rounded-lg object-cover"
