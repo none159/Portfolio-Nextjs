@@ -59,11 +59,12 @@ function Contact() {
       <div className="flex justify-between w-[95%] items-start">
         <div className="grid gap-5 w-[500px] ml-10 mt-10">
           <h2 className="font-bold text-2xl">Let's Connect</h2>
-          <p>
-            I'm currently looking for new opportunities. My inbox is always
-            open. Whether you have a question or just want to say hi, I'll try
-            my best to get back to you!
-          </p>
+                  <p>
+          I&apos;m currently looking for new opportunities. My inbox is always
+          open. Whether you have a question or just want to say hi, I&apos;ll try
+          my best to get back to you!
+        </p>
+
           <h4 className="border-b-2 border-blue-600 w-fit">Reach Me On</h4>
           <div className="flex gap-5">
             <a

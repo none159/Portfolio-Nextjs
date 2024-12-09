@@ -17,7 +17,7 @@ function Topsection() {
     <section id='tophome'  className="relative top-10 flex justify-between w-[90%] m-10 items-center align-middle">
       <div className="grid gap-10">
         <h2 className="text-8xl text-blue-600">
-          Hello, I'm a
+          Hello, I&apos;m a
           </h2>
         <span className="relative inline-block text-7xl mb-[70px] w-[600px]">
             <span

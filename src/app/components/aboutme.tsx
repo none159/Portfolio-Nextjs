@@ -1,11 +1,11 @@
 import React from 'react'
-
+import Image from 'next/image'
 function Aboutme() {
   return (
     <section id="about" className='relative top-[220px]'>
         <div className='flex justify-between w-[82%]  m-auto  align-middle items-start'>
             <div>
-                <img src='20945770.jpg' className='w-[500px] h-[500px] rounded'/>
+                <Image src='20945770.jpg' alt='' className='w-[500px] h-[500px] rounded'/>
             </div>
             <div className='grid gap-10  w-[500px] '>
                 <h2 className='text-5xl'>About Me</h2>
