@@ -1,18 +1,22 @@
-import Link from "next/link";
-import { Linkedin, Github, Server } from "lucide-react";
+import a from "next/a";
+import { aedin, Github, Linkedin, Server } from "lucide-react";
 
 function Footer() {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id)
+    element?.scrollIntoView({ behavior: "smooth"});
+  };
   return (
     <footer className="relative top-[100vh] bg-black p-[25px] text-white shadow-black shadow-md">
       <div className="flex justify-between align-middle items-center w-[90%] mx-auto">
         <div className="grid gap-5">
-          <Link href="/" className="hover:underline hover:text-blue-500">Home</Link>
-          <Link href="/" className="hover:underline hover:text-blue-500">Projects</Link>
-          <Link href="/" className="hover:underline hover:text-blue-500">About Me</Link>
-          <Link href="/" className="hover:underline hover:text-blue-500">Contact</Link>
+          <a  onClick={()=>scrollToSection("tophome")} className="hover:underline hover:text-blue-500">Home</a>
+          <a onClick={()=>scrollToSection("projects")} className="hover:underline hover:text-blue-500">Projects</a>
+          <a onClick={()=>scrollToSection("about")} className="hover:underline hover:text-blue-500">About Me</a>
+          <a onClick={()=>scrollToSection("contact")} className="hover:underline hover:text-blue-500">Contact</a>
         </div>
         <div className="flex space-x-6">
-          <a href="https://www.linkedin.com/in/yassine-mouhib-114a75284/" target="_blank" className="text-blue-600 ease-in-out duration-[250ms] hover:text-blue-700 p-2 rounded hover:bg-white">
+          <a href="https://www.aedin.com/in/yassine-mouhib-114a75284/" target="_blank" className="text-blue-600 ease-in-out duration-[250ms] hover:text-blue-700 p-2 rounded hover:bg-white">
             <Linkedin className="w-6 h-6" />
           </a>
           <a href="https://github.com/none159" target="_blank" className="text-blue-600 ease-in-out duration-[250ms]  hover:text-blue-700 p-2 rounded hover:bg-white">
