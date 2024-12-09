@@ -40,7 +40,7 @@ function Topsection() {
           <a href='https://www.linkedin.com/in/yassine-mouhib-114a75284/' className="bg-blue-600 px-[10px] py-[10px] rounded-md duration-[300ms] ease-in-out hover:bg-white hover:text-blue-600">
             Hire Me
           </a>
-          <a href='/newcv.pdf' className="bg-blue-600 px-[10px] py-[10px] rounded-md duration-[300ms] ease-in-out hover:bg-white hover:text-blue-600">
+          <a href='/public/newcv.pdf' className="bg-blue-600 px-[10px] py-[10px] rounded-md duration-[300ms] ease-in-out hover:bg-white hover:text-blue-600">
             Download CV
           </a>
         </div>

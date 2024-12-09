@@ -12,13 +12,13 @@ function Footer() {
           <Link href="/" className="hover:underline hover:text-blue-500">Contact</Link>
         </div>
         <div className="flex space-x-6">
-          <a href="https://www.linkedin.com" target="_blank" className="text-blue-600 ease-in-out duration-[250ms] hover:text-blue-700 p-2 rounded hover:bg-white">
+          <a href="https://www.linkedin.com/in/yassine-mouhib-114a75284/" target="_blank" className="text-blue-600 ease-in-out duration-[250ms] hover:text-blue-700 p-2 rounded hover:bg-white">
             <Linkedin className="w-6 h-6" />
           </a>
-          <a href="https://github.com" target="_blank" className="text-blue-600 ease-in-out duration-[250ms]  hover:text-blue-700 p-2 rounded hover:bg-white">
+          <a href="https://github.com/none159" target="_blank" className="text-blue-600 ease-in-out duration-[250ms]  hover:text-blue-700 p-2 rounded hover:bg-white">
             <Github className="w-6 h-6" />
           </a>
-          <a href="https://vercel.com" target="_blank" className=" hover:text-blue-700 ease-in-out duration-[250ms] text-blue-600 p-2 rounded hover:bg-white">
+          <a href="https://vercel.com/yassines-projects-51a48afb" target="_blank" className=" hover:text-blue-700 ease-in-out duration-[250ms] text-blue-600 p-2 rounded hover:bg-white">
             <Server className="w-6 h-6" />
           </a>
         </div>
