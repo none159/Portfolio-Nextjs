@@ -1,5 +1,5 @@
-import a from "next/a";
-import { aedin, Github, Linkedin, Server } from "lucide-react";
+
+import { Github, Linkedin, Server } from "lucide-react";
 
 function Footer() {
   const scrollToSection = (id: string) => {
