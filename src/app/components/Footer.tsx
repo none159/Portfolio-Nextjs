@@ -16,7 +16,7 @@ function Footer() {
           <a onClick={()=>scrollToSection("contact")} className="hover:underline hover:text-blue-500">Contact</a>
         </div>
         <div className="flex space-x-6">
-          <a href="https://www.aedin.com/in/yassine-mouhib-114a75284/" target="_blank" className="text-blue-600 ease-in-out duration-[250ms] hover:text-blue-700 p-2 rounded hover:bg-white">
+          <a href="https://www.Linkedin.com/in/yassine-mouhib-114a75284/" target="_blank" className="text-blue-600 ease-in-out duration-[250ms] hover:text-blue-700 p-2 rounded hover:bg-white">
             <Linkedin className="w-6 h-6" />
           </a>
           <a href="https://github.com/none159" target="_blank" className="text-blue-600 ease-in-out duration-[250ms]  hover:text-blue-700 p-2 rounded hover:bg-white">
