@@ -61,7 +61,7 @@ function Topsection() {
           className="w-full h-full rounded-full object-cover"
           height={300}
           width={300}
-          src="/4200_3_03.jpg"
+          src="4200_3_03.jpg"
           alt="Profile"
           priority={true}
         />
