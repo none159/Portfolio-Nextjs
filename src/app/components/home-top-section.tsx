@@ -37,12 +37,12 @@ function Topsection() {
           </span>
 
         <div className="flex gap-10">
-          <button className="bg-blue-600 px-[10px] py-[10px] rounded-md duration-[300ms] ease-in-out hover:bg-white hover:text-blue-600">
+          <a href='https://www.linkedin.com/in/yassine-mouhib-114a75284/' className="bg-blue-600 px-[10px] py-[10px] rounded-md duration-[300ms] ease-in-out hover:bg-white hover:text-blue-600">
             Hire Me
-          </button>
-          <button className="bg-blue-600 px-[10px] py-[10px] rounded-md duration-[300ms] ease-in-out hover:bg-white hover:text-blue-600">
+          </a>
+          <a href='/newcv.pdf' className="bg-blue-600 px-[10px] py-[10px] rounded-md duration-[300ms] ease-in-out hover:bg-white hover:text-blue-600">
             Download CV
-          </button>
+          </a>
         </div>
       </div>
       <div className="w-[350px] h-[350px] rounded-full bg-gray-300 flex items-center justify-center">
