@@ -54,19 +54,26 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className="relative grid gap-10 top-[500px]">
-      <h2 className="mx-auto text-4xl font-bold mb-10">Contact</h2>
-      <div className="flex justify-between w-[95%] items-start">
-        <div className="grid gap-5 w-[500px] ml-10 mt-10">
-          <h2 className="font-bold text-2xl">Let&apos;s Connect</h2>
-                  <p>
-          I&apos;m currently looking for new opportunities. My inbox is always
-          open. Whether you have a question or just want to say hi, I&apos;ll try
-          my best to get back to you!
-        </p>
+    <section
+      id="contact"
+      className="relative grid gap-10 top-[500px] px-5 sm:px-10 lg:px-20"
+    >
+      <h2 className="mx-auto text-4xl font-bold mb-10 text-center">Contact</h2>
+      <div className="flex flex-wrap justify-between w-full items-start">
+        <div className="grid gap-5 w-full sm:w-[80%] lg:w-[40%] mx-auto lg:mx-0 mb-10">
+          <h2 className="font-bold text-2xl text-center lg:text-left">
+            Let&apos;s Connect
+          </h2>
+          <p className="text-center lg:text-left">
+            I&apos;m currently looking for new opportunities. My inbox is always
+            open. Whether you have a question or just want to say hi, I&apos;ll
+            try my best to get back to you!
+          </p>
 
-          <h4 className="border-b-2 border-blue-600 w-fit">Reach Me On</h4>
-          <div className="flex gap-5">
+          <h4 className="border-b-2 border-blue-600 w-fit mx-auto lg:mx-0">
+            Reach Me On
+          </h4>
+          <div className="flex gap-5 justify-center lg:justify-start">
             <a
               href="https://www.linkedin.com"
               target="_blank"
@@ -85,7 +92,8 @@ function Contact() {
             </a>
           </div>
         </div>
-        <div>
+
+        <div className="w-full sm:w-[80%] lg:w-[50%] mx-auto lg:mx-0">
           <form
             ref={formRef}
             onSubmit={handleSubmit}
@@ -97,7 +105,7 @@ function Contact() {
               name="email"
               type="email"
               placeholder="Your Email here..."
-              className="w-[400px] py-[5px] border-[#18191E] text-white bg-[#18191E] rounded outline-none ease-in-out border-2 focus:border-white"
+              className="w-full lg:w-[400px] py-[5px] border-[#18191E] text-white bg-[#18191E] rounded outline-none ease-in-out border-2 focus:border-white"
             />
             <label htmlFor="subject">Subject:</label>
             <input
@@ -105,18 +113,18 @@ function Contact() {
               name="subject"
               type="text"
               placeholder="Your Subject here..."
-              className="w-[400px] py-[5px] border-[#18191E] text-white bg-[#18191E] rounded outline-none ease-in-out border-2 focus:border-white"
+              className="w-full lg:w-[400px] py-[5px] border-[#18191E] text-white bg-[#18191E] rounded outline-none ease-in-out border-2 focus:border-white"
             />
             <label htmlFor="message">Message:</label>
             <textarea
               id="message"
               name="message"
               placeholder="Your Message here..."
-              className="w-[450px] h-[400px] border-[#18191E] text-white bg-[#18191E] rounded outline-none ease-in-out border-2 focus:border-white"
+              className="w-full lg:w-[450px] h-[200px] border-[#18191E] text-white bg-[#18191E] rounded outline-none ease-in-out border-2 focus:border-white"
             />
             <button
               type="submit"
-              className="bg-white text-blue-600 hover:bg-blue-600 hover:text-white px-[205px] py-[10px] duration-[350ms] ease-in-out transition-all rounded"
+              className="bg-white text-blue-600 hover:bg-blue-600 hover:text-white px-10 py-[10px] duration-[350ms] ease-in-out transition-all rounded"
             >
               Send
             </button>
