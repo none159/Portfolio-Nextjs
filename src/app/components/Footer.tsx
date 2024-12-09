@@ -11,7 +11,7 @@ function Footer() {
       <div className="flex justify-between align-middle items-center w-[90%] mx-auto">
         <div className="grid gap-5">
           <a  onClick={()=>scrollToSection("tophome")} className="hover:underline hover:text-blue-500">Home</a>
-          <a onClick={()=>scrollToSection("projects")} className="hover:underline hover:text-blue-500">Projects</a>
+          <a onClick={()=>scrollToSection("project")} className="hover:underline hover:text-blue-500">Projects</a>
           <a onClick={()=>scrollToSection("about")} className="hover:underline hover:text-blue-500">About Me</a>
           <a onClick={()=>scrollToSection("contact")} className="hover:underline hover:text-blue-500">Contact</a>
         </div>
