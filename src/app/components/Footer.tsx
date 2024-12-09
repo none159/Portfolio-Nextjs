@@ -10,10 +10,10 @@ function Footer() {
     <footer className="relative top-[100vh] bg-black p-[25px] text-white shadow-black shadow-md">
       <div className="flex justify-between align-middle items-center w-[90%] mx-auto">
         <div className="grid gap-5">
-          <a  onClick={()=>scrollToSection("tophome")} className="hover:underline hover:text-blue-500">Home</a>
-          <a onClick={()=>scrollToSection("project")} className="hover:underline hover:text-blue-500">Projects</a>
-          <a onClick={()=>scrollToSection("about")} className="hover:underline hover:text-blue-500">About Me</a>
-          <a onClick={()=>scrollToSection("contact")} className="hover:underline hover:text-blue-500">Contact</a>
+          <a  onClick={()=>scrollToSection("tophome")} className="hover:underline cursor-pointer hover:text-blue-500">Home</a>
+          <a onClick={()=>scrollToSection("project")} className="hover:underline cursor-pointer hover:text-blue-500">Projects</a>
+          <a onClick={()=>scrollToSection("about")} className="hover:underline cursor-pointer hover:text-blue-500">About Me</a>
+          <a onClick={()=>scrollToSection("contact")} className="hover:underline cursor-pointer hover:text-blue-500">Contact</a>
         </div>
         <div className="flex space-x-6">
           <a href="https://www.Linkedin.com/in/yassine-mouhib-114a75284/" target="_blank" className="text-blue-600 ease-in-out duration-[250ms] hover:text-blue-700 p-2 rounded hover:bg-white">
