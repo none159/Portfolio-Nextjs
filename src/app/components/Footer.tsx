@@ -1,4 +1,4 @@
-
+"use client"
 import { Github, Linkedin, Server } from "lucide-react";
 
 function Footer() {
