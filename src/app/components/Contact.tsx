@@ -75,7 +75,7 @@ function Contact() {
           </h4>
           <div className="flex gap-5 justify-center lg:justify-start">
             <a
-              href="https://www.linkedin.com"
+              href="https://www.Linkedin.com/in/yassine-mouhib-114a75284/"
               target="_blank"
               aria-label="LinkedIn Profile"
               className="text-blue-600 ease-in-out duration-[250ms] hover:text-blue-700 p-2 rounded hover:bg-white"
@@ -83,7 +83,7 @@ function Contact() {
               <Linkedin className="w-6 h-6" />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/none159"
               target="_blank"
               aria-label="GitHub Profile"
               className="text-blue-600 ease-in-out duration-[250ms] hover:text-blue-700 p-2 rounded hover:bg-white"
