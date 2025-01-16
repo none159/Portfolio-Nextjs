@@ -25,7 +25,7 @@ This portfolio is built with the following in mind:
 This project was created using the following tools and libraries:  
 
 - [![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)  
-- [![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)  
+- [![Typescript](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)  
 - [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)  
 
 ---
@@ -50,9 +50,3 @@ Explore the live version here: [🌐 Visit the Portfolio](https://socialdash-lw4
 ![Portfolio Preview](https://via.placeholder.com/800x400.png?text=Portfolio+Preview+Image)  
 
 ---
-
-## 🏗️ **Setup Instructions**  
-
-1. Clone this repository:  
-   ```bash  
-   git clone https://github.com/your-username/your-portfolio.git  
