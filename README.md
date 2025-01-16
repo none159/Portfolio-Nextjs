@@ -41,7 +41,7 @@ This project was created using the following tools and libraries:
 
 ## 📸 **Live Demo**  
 
-Explore the live version here: [🌐 Visit the Portfolio](https://socialdash-lw4h.vercel.app/)  
+Explore the live version here: [🌐 Visit the Portfolio]([https://socialdash-lw4h.vercel.app/](https://none159.github.io/Portfolio-Nextjs/))  
 
 ---
 
